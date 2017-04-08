@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="com.example.vaibhav.databasetest1.two">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="emergency.jpg"
+        android:clickable="true"
+        android:onClick="emergency"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:background="#9fc5bd"
+        android:src="@drawable/securityfc" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:clickable="false"
+        android:text="EMERGENCY"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"
+        android:typeface="serif">
+    </TextView>
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/imageButton2"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:background="#93beb3"
+        android:src="@drawable/securitysc" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:clickable="false"
+        android:text="ACCIDENT"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="210dp"
+        android:textSize="30dp"
+        android:typeface="serif">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:background="#8baca4"
+        android:src="@drawable/securitytc"
+        android:clickable="true"
+        android:onClick="theft" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:clickable="false"
+        android:text="THEFT"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp"
+        android:typeface="serif">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/imageButton4"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:background="#769f90"
+        android:src="@drawable/securityfoc" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:clickable="false"
+        android:text="REMINDER"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="510dp"
+        android:textSize="30dp"
+        android:typeface="serif">
+    </TextView>
+
+</RelativeLayout>
+
+

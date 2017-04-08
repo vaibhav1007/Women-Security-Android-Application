@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/people5"
+    tools:context="com.example.vaibhav.databasetest1.one">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/button4"
+        android:background="@drawable/signin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:elevation="24dp"
+        android:onClick="gsignin" />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:id="@+id/imageView2"
+        android:alpha="0.65"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/button5"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/my_button6"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:onClick="signup" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button6"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:background="@drawable/my_button6"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:onClick="done" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="275dp"
+        android:hint="Your email" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/textView7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="315dp"
+        android:hint="Your password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Sign in with your email address"
+        android:id="@+id/textView8"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textSize="20dp"
+        android:layout_above="@+id/textView6"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginBottom="31dp" />
+
+
+</RelativeLayout>

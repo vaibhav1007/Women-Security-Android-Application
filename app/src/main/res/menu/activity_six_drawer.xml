@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/editprofile"
+            android:title="Edit Profile" />
+
+        <item
+            android:id="@+id/emails"
+            android:title="Emails" />
+        <item
+            android:id="@+id/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/log_out"
+            android:title="Log Out" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/sms_back2"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="This is your message.Click the button to send your location to your emergency group members."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/textView19"
+        android:textStyle="normal|italic"
+        android:fontFamily="sans-serif" />
+    <EditText
+       android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/backloc"
+        android:textColor="#ffffff"
+        android:textColorHint="#F6F6F6"
+        android:hint="details"
+        android:layout_below="@+id/textView19"/>
+    <Button
+        android:background="@drawable/sms"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/details"
+        android:layout_marginTop="50dp"
+        android:id="@+id/buttonsms" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "954797961740",
+    "project_id": "angelic-artwork-148610"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954797961740:android:cf63f73e057901b4",
+        "android_client_info": {
+          "package_name": "com.example.vaibhav.databasetest1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954797961740-77l63gggku5t1fnnkjgcorbfn3hdev1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaibhav.databasetest1",
+            "certificate_hash": "090225F8FF93BF0FAAD51ADCD3F86241B240F46A"
+          }
+        },
+        {
+          "client_id": "954797961740-ctckdq2sfihucdljikiu0ri1i8el1d90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc5jcZmsiV7ySJJs6PPIFo-a160Anx594"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

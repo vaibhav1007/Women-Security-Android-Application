@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".database.MainActivity"
+    android:onClick="contentact">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Insert"
+        android:id="@+id/btnInsert"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:onClick="insert"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Search"
+        android:id="@+id/btnUpdate"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnInsert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:onClick="contentacti" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="View"
+        android:id="@+id/btnSelect"
+        android:textStyle="bold"
+        android:layout_below="@id/btnUpdate"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="viewcont"
+        android:layout_marginTop="32dp"
+        android:textSize="22dp"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Delete"
+        android:id="@+id/btnDelete"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnSelect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="22dp"
+        android:typeface="serif" />
+
+</RelativeLayout>

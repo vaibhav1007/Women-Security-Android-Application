@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/helpback1"
+    >
+
+    <TextView
+        android:text="In Emergency category you will have two options.Either you can
+        choose the default one or voice service.By choosing default you can first send message to your group members then can use voice service.
+        Otherwise you can directly open voice service.
+        In Accident category you will find your nearest group members and then can get to you using maps"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/textView20"
+        android:textSize="18dp"
+        android:textStyle="normal|bold" />
+</RelativeLayout>
